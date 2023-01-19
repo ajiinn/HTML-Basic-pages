@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    }
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: palevioletred;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+form{
+    background-color: skyblue;
+    height:850px;
+    width:1400px;
+    padding-left: 50px;
+    padding-top: 100px;
+}
+table{
+    height:800px;
+}
+hr{
+    border:solid white;
+    height: 1px;
+    border-left-color: skyblue;
+    border-right-color: skyblue;
+    border-top-color: skyblue;
+}
+.input{
+    width: 1335px;
+    height:40px;
+    border-style: hidden;
+}
+h1{
+    padding-bottom: 10px;
+}
+#head{
+    padding-top: 30px;
+}
+h4{
+    font-weight: lighter;
+    font-size: 13;
+}
+button{
+    height: 40px;
+    width: 1300px;
+    background-color: lightgreen;
+    border: 0;
+}
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+          <caption><h1>Student Registration Form</h1></caption>
+          <tr><td><hr></td></tr>
+          <tr>
+              <td><h4 id="head">Firstname</h4>
+              <input type="text" class="input" placeholder="Firstname">
+              </td>
+          </tr>
+          <tr>
+              <td><h4>Middlename:</h4>
+              <input type="text" class="input" placeholder="Middlename">
+              </td>
+          </tr>
+          <tr>
+              <td><h4>Lastname:</h4>
+              <input type="text" class="input" placeholder="Lastname">
+              </td>
+          </tr>
+          <tr>
+              <td>Course: <select><option>Course</option></select></td>
+          </tr>
+          <tr>
+              <td>Gender:<br>
+                  <input type="radio">Male <input type="radio">Female <input type="radio">Other
+              </td>
+          </tr>
+          <tr>
+              <td><h4>Phone:</h4>
+                  <input type="text" placeholder="+91" class="input">
+              </td>
+          </tr>
+          <tr>
+              <td><input type="text" placeholder="phone no" class="input"></td>
+          </tr>
+          <tr>
+              <td><h4>Current Address:</h4>
+                  <textarea cols="180" rows="7"></textarea>
+              </td>
+          </tr>
+        <tr>
+            <td><h4>Email:</h4>
+            <input type="text" class="input" placeholder="Email">
+            </td>
+        </tr>
+        <tr>
+            <td><h4>Password:</h4>
+            <input type="text" class="input" placeholder="Passwprd">
+            </td>
+        </tr>
+        <tr>
+            <td><h4>Retype Password:</h4>
+            <input type="text" class="input" placeholder="retype password">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button>Register</button>
+            </td>
+        </tr>
+        </table>
+      </form>
+</body>
+</html>
